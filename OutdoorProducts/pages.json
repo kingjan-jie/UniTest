@@ -1,0 +1,63 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path" : "pages/VIP/VIP",
+			"style" : 
+			{
+				"navigationBarTitleText" : "纯享VIP"
+			}
+		},
+		{
+			"path" : "pages/Cart/Cart",
+			"style" : 
+			{
+				"navigationBarTitleText" : "购物车"
+			}
+		},
+		{
+			"path" : "pages/User/User",
+			"style" : 
+			{
+				"navigationBarTitleText" : "用户中心"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/image/tabbar/bike.png",
+				"selectedIconPath": "static/image/tabbar/bike-active.png",
+				"text": "主页"
+			},{
+				"pagePath": "pages/Cart/Cart",
+				"iconPath": "static/image/tabbar/Cart.png",
+				"selectedIconPath": "static/image/tabbar/cart-active.png",
+				"text": "购物车"
+			},{
+				"pagePath": "pages/VIP/VIP",
+				"iconPath": "static/image/tabbar/vip.png",
+				"selectedIconPath": "static/image/tabbar/vip-active.png",
+				"text": "VIP"
+			},{
+				"pagePath": "pages/User/User",
+				"iconPath": "static/image/tabbar/user.png",
+				"selectedIconPath": "static/image/tabbar/user-active.png",
+				"text": "用户中心"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}
