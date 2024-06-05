@@ -1,0 +1,13 @@
+view,swiper,swiper-item,navigator{
+	//内嵌式盒子，不会向外拓展
+	box-sizing: border-box;
+}
+
+.indexBg{
+	width: 100%;
+	min-height: 100vh;
+	background-image: 
+	linear-gradient(to bottom, transparent,#fff),
+	linear-gradient(to right, #7cccf7,#aaa5d5);
+	
+}
